@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <header>Formulario</header>
+    <main>
+      <div>
+        <form action="nuevo.html">
+          <label for="nombre">Nombre: </label>
+          <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre"/><br />
+          <label for="apellido">Apellido: </label>
+          <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido" /><br />
+          <h2>Cuéntenos cuál es su lenguaje favorito</h2>
+          <input type="radio" id="html" name="lenguaje" value="html" />
+          <label for="html">HTML</label><br />
+          <input type="radio" id="CSS" name="lenguaje" value="css" />
+          <label for="CSS">CSS</label><br />
+          <input
+            type="radio"
+            id="javascript"
+            name="lenguaje"
+            value="javascript"
+          />
+          <label for="javascript">JavaScript</label>
+
+          <h2>Indíquenos que medio de transporte usa</h2>
+          <input
+            type="checkbox"
+            id="auto"
+            name="medioTransporte"
+            value="auto"
+          />
+          <label for="auto">Automovil</label><br />
+          <input
+            type="checkbox"
+            id="moto"
+            name="medioTransporte"
+            value="moto"
+          />
+          <label for="moto">Motocicleta</label><br />
+          <input
+            type="checkbox"
+            id="bicicleta"
+            name="medioTransporte"
+            value="bicicletmedioT"
+          />
+          <label for="moto">Bicicleta</label><br />
+          <label for="marcaAuto">Cuál es la marca de su auto Favorito</label><br><br><br>
+          <select name="marcaAuto" id="marcaAuto" size="5" multiple>
+            <br />
+            <option value="toyota">Toyota</option>
+            <option value="chevrolet">Chevrolet</option>
+            <option value="porsche">Porsche</option>
+            <option value="ford">Ford</option>
+            <option value="ferrari">Ferrari</option>
+            <option value="mercedes">Mercedes</option></select
+          ><br> <br><br>
+          <textarea name="mensaje" id="mensaje" cols="30" rows="30" placeholder=" Escriba un mensaje" style="width: 600px; height:200px" ></textarea> <br><br>
+          <button>Enviar Formulario</button>
+        </form>
+      </div>
+    </main>
+    <footer>Pie de página</footer>
+  </body>
+</html>
