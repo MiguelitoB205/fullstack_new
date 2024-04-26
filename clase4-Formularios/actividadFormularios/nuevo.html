@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Discografía Pantera</h1>
+            <h2>Bienvenidos a la discografía Pantera</h2>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="miguelito.html">Miguelito</a></li>
+                <li><a href="nuevo.html">Nuevo</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <form action="nuevo.html">
+                <label for="text">Nombre</label><br>
+                <input type="text" id="name" name="name" placeholder="¿Cuál es tu nombre?" autofocus><br>
+                <label for="text" >Apellido</label><br>
+                <input type="text" id="apellido" name="apellido" placeholder="¿Cuáles tu apellido?" autofocus><br>
+                <label for="text">Correo electrónico</label><br>
+                <input type="text" id="email" name="email" placeholder="¿Cuáles tu correo electrónico?" autofocus><br>
+                <label for="text">Contraseña</label><br>
+                <input type="password" id="password" name="password" placeholder="Escribe la clave" autofocus><br>
+                <label for="text">Confirmar contraseña</label><br>
+                <input type="password" id="password" name="password" placeholder="Escribe nuevamente la clave" autofocus><br>
+                <label for="text">Ingresa tu número telefónico</label><br>
+                <input type="text" id="phoneHome" name="tCasa"
+           placeholder="Ingrese su número telefónco"
+            pattern="(+[0-9]{2}) - [0-9]{3}-[0-9]{3}-[0-9]{4} " autocomplete="off"
+            novalidate="on" autofocus><br>
+                <label for="text">Cuándo naciste</label><br>
+                <input type="date" value="date" id="date" name="date"><br>
+                <h2>¿En cuál país naciste?</h2>
+                <input list="lista"/>
+                <datalist id="lista" name="lista">
+                    <option value="Colombia"></option>
+                    <option value="Argentina"></option>
+                    <option value="Ururguay"></option>
+                    <option value="Paraguay"></option>
+                    <option value="Brasil"></option>
+                    <option value="Bolivia"></option>
+                    <option value="Chile"></option>
+                    <option value="Venezuela"></option>
+                    <option value="Ecuador"></option>
+                    <option value="Perú"></option>
+                </datalist><br><br>
+                <h2>Selecciona cúales son tus artistas ó grupos favoritos</h2><br>
+                <input type="checkbox" id="artista" name="artista" value="artista">
+                <label for="text">Michael Jackson</label> <br>
+                <input type="checkbox" id="artista" name="artista" value="artista">
+                <label for="text">Bad Bunny</label><br>
+                <input type="checkbox" id="artista" name="artista" value="artista">
+                <label for="text">Shakira</label><br>
+                <input type="checkbox" id="artista" name="artista" value="artista">
+                <label for="text">Maluma</label><br>
+                <input type="checkbox" id="artista" name="artista" value="artista">
+                <label for="text">John Lennon</label><br>
+                <input type="checkbox" id="artista" name="artista" value="artista">
+                <label for="text">Juan Gabriel</label><br>
+                <input type="checkbox" id="artista" name="artista" value="artista">
+                <label for="text">Miguel Bosé</label><br>
+                <input type="checkbox" id="artista" name="artista" value="artista">
+                <label for="text">Andrés Calamaro</label><br>
+                <input type="checkbox" id="agrupacion" name="agrupacion" value="agrupacion">
+                <label for="text">Nirvana</label><br>
+                <input type="checkbox" id="agrupacion" name="agrupacion" value="agrupacion">
+                <label for="text">Gipsy Kings</label><br>
+                <input type="checkbox" id="artista" name="artista" value="artista">
+                <label for="text">Paco de Lucía</label><br>
+                <input type="checkbox" id="artista" name="artista" value="artista">
+                <label for="text">Alex Campos</label><br>
+                <input type="checkbox" id="agrupacion" name="agrupacion" value="agrupacion">
+                <label for="text">Soda Estéreo</label><br>
+                <input type="checkbox" id="artista" name="artista" value="artista">
+                <label for="text">Pipe Peláez</label><br><br>
+                <h2>Selecciona tu género favorito</h2>
+                <select name="genero_fav" id="genero_fav" size="2">
+                    <option value="rock">Rock</option>
+                    <option value="pop">Pop</option>
+                    <option value="reggaeton">Reggaeton</option>
+                    <option value="alabanza_a_Dios">Alabanza a Dios</option>
+                    <option value="tropical">Tropical</option>
+                    <option value="salsa">Salsa</option>
+                    <option value="bachata">Bachata</option>
+                    <option value="vallenato">Vallenato</option>
+                    <option value="flamenco">Flamenco</option>
+                    <option value="bossa_nova">Bossa Nova</option>
+                </select><br>
+                <label for="quantity">¿Cuántas canciones escuchas al día?</label><br />
+                <input
+                  type="number"
+                  id="quantity"
+                  name="quantity"
+                  min="0"
+                  max="50"
+                  step="0" value="5"
+                /><br />
+                <label for="reserva">Selecciona la fecha de reserva</label><br>
+                <input type="date"><br><br><br>
+                <textarea name="coments" id="comments" placeholder="Sólo lectura" readonly cols="50" rows="5"></textarea><br><br>
+               <input type="button" value="Enviar">
+
+
+
+
+
+            </form>
+        </div>
+    </main>
+</body>
+</html>
