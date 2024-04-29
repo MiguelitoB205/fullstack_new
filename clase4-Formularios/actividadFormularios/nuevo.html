@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
 </head>
 <body>
     <header>
         <nav>
-            <h1>Discografía Pantera</h1>
+            <h1 class="titulo fondoAzul">Discografía Pantera</h1>
             <h2>Bienvenidos a la discografía Pantera</h2>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
@@ -19,7 +20,7 @@
         </nav>
     </header>
     <main>
-        <div>
+        <div class="formRegistro">
             <form action="nuevo.html">
                 <label for="text">Nombre</label><br>
                 <input type="text" id="name" name="name" placeholder="¿Cuál es tu nombre?" autofocus><br>
@@ -38,7 +39,7 @@
             novalidate="on" autofocus><br>
                 <label for="text">Cuándo naciste</label><br>
                 <input type="date" value="date" id="date" name="date"><br>
-                <h2>¿En cuál país naciste?</h2>
+                <h2 class="subtitulo fondoAzul">¿En cuál país naciste?</h2>
                 <input list="lista"/>
                 <datalist id="lista" name="lista">
                     <option value="Colombia"></option>
@@ -115,5 +116,8 @@
             </form>
         </div>
     </main>
+    <footer>
+       <h2> Este es el pie de página  &copy;</h2>
+    </footer>
 </body>
 </html>

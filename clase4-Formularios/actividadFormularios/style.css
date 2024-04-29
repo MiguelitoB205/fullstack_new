@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Audiowide", sans-serif;
     background-color: rgb(43, 41, 41);
     color: white;
     font-size: 19px;
@@ -13,25 +13,36 @@ form{
     justify-content: center;
     height: 25%;
     width: 50%;
+    border: 3px rgb(92, 82, 82) solid;
+    border-radius: 10px;
+    margin:30px;
 }
-header{
+header, footer{
     background-color: black;
-    padding: 20px;
+    padding: 16px;
+    background-image: url('/clase4-Formularios/actividadFormularios/img/jesus_adrian.jpg');
+    background-repeat: repeat-x;
+    background-position: right;
+    background-size: contain;
+    margin: 30px;
 }
-h1{
-    text-align: center;
-    color: silver;
+ul{
+    list-style-type: none;
 }
-h2{
-    text-align: center;
-    color: silver;
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(2, 1, 1);
+    
 }
+
 input{
     padding: 10px;
     border-radius: 20px;
 }
 textarea{
     border-radius: 20px;
+    padding: 30px;
 }
 .container{
     display: grid;
@@ -44,4 +55,25 @@ textarea{
     justify-content: center;
     padding: 30px 0 30px 0;
     border-radius: 30px;
+}
+
+#name{
+    background-color: rgb(73, 70, 66);
+}
+#apellido{
+    background-color: black;
+}
+
+.contText{
+    text-align: justify;
+    margin: 20px;
+}
+.fondoAzul{
+    background-color: rgb(5, 5, 70);
+}
+h1,h2,a{
+    color: rgb(233, 235, 235);
+    font-weight:900;
+    background-color: black;
+    text-align: center;
 }
