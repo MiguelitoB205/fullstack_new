@@ -34,11 +34,11 @@
                 <input type="password" id="password" name="password" placeholder="Escribe nuevamente la clave" autofocus><br>
                 <label for="text">Ingresa tu número telefónico</label><br>
                 <input type="text" id="phoneHome" name="tCasa"
-           placeholder="Ingrese su número telefónco"
+           placeholder="1234567890"
             pattern="(+[0-9]{2}) - [0-9]{3}-[0-9]{3}-[0-9]{4} " autocomplete="off"
             novalidate="on" autofocus><br>
                 <label for="text">Cuándo naciste</label><br>
-                <input type="date" value="date" id="date" name="date"><br>
+                <input type="date" value="date" id="date" name="date" min="1980-01-02" max="2014-01-01"><br>
                 <h2 class="subtitulo fondoAzul">¿En cuál país naciste?</h2>
                 <input list="lista"/>
                 <datalist id="lista" name="lista">
@@ -107,7 +107,8 @@
                 <label for="reserva">Selecciona la fecha de reserva</label><br>
                 <input type="date"><br><br><br>
                 <textarea name="coments" id="comments" placeholder="Sólo lectura" readonly cols="50" rows="5"></textarea><br><br>
-               <input type="button" value="Enviar">
+                <input type="file" id="seleccion"> <br><br><br>
+               <input type="button" id="boton" value="Enviar">
 
 
 

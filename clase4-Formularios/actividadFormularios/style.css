@@ -7,8 +7,7 @@ body{
     font-size: 19px;
 }
 form{
-    display: flex;
-    flex-direction: column;
+
     align-items: center;
     justify-content: center;
     height: 25%;
@@ -16,6 +15,7 @@ form{
     border: 3px rgb(92, 82, 82) solid;
     border-radius: 10px;
     margin:30px;
+    padding: 40px;
 }
 header, footer{
     background-color: black;
@@ -57,11 +57,13 @@ textarea{
     border-radius: 30px;
 }
 
-#name{
+#name,#email, #phoneHome {
     background-color: rgb(73, 70, 66);
+    color: white;
 }
-#apellido{
+#apellido,#password{
     background-color: black;
+    color: white;
 }
 
 .contText{
@@ -76,4 +78,36 @@ h1,h2,a{
     font-weight:900;
     background-color: black;
     text-align: center;
+}
+#seleccion{
+    background-color:black ;
+}
+#boton {
+    background-color: rgb(11, 6, 41);
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    margin: 20px;
+    font-family: "Audiowide", sans-serif;
+}
+#genero_fav{
+    padding: 13px 10px;
+    background-color: black;
+    color: grey;
+    font-family: "Audiowide", sans-serif;
+}
+#name, #apellido, #email, #password, #phoneHome{
+    font-family: "Audiowide", sans-serif;
+}
+#quantity{
+    padding:10px;
+    background-color: grey;
+    font-family: "Audiowide", sans-serif;   
+}
+img{
+    border-radius: 30px;
+}
+.ubicacion{
+    display:flex;
+    justify-content: center;
 }
