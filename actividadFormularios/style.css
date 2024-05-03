@@ -53,6 +53,17 @@ textarea{
 .card img{
     width: 90%;
 }
+.card p{
+    color: blue;
+    font-size: 23px;
+}
+.card h2{
+    color: rgb(148, 193, 204);
+}
+#nuevo{
+    color: rgb(10, 34, 54);
+    text-align-last: center;
+}
 .card iframe{
     width: 90%;
 }
