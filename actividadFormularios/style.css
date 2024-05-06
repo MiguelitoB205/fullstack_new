@@ -5,7 +5,7 @@
 }
 body{
     
-    font-family: "Audiowide", sans-serif;
+    font-family: "Spectral";
     background-color: rgb(43, 41, 41);
     color: white;
     
@@ -54,15 +54,30 @@ textarea{
     width: 90%;
 }
 .card p{
-    color: blue;
+    display: inline-flex;
+    color: rgb(247, 247, 253);
     font-size: 23px;
+    text-align: justify;
+    vertical-align:baseline;
+    text-decoration: underline rgb(60, 60, 61) double 7px;
+    text-transform: capitalize;
+    text-indent: 30px;
+    word-spacing: 10px;
+    line-height: 30px;
+    text-shadow: -2px -3px rgb(128, 123, 123);
+
 }
 .card h2{
-    color: rgb(148, 193, 204);
+    display: inline;
+    color: rgb(17, 17, 17);
+    font-size: 30px;
+    background-color: rgb(78, 78, 74);
+    text-shadow: 3px 6px white
 }
 #nuevo{
-    color: rgb(10, 34, 54);
+    color: rgb(8, 8, 8);
     text-align-last: center;
+    vertical-align: super;
 }
 .card iframe{
     width: 90%;
